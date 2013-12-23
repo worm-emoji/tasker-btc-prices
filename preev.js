@@ -22,7 +22,7 @@ if (global('BTCUNITS') == 'mBTC')  {
 	setGlobal('LOCALBITCOINS_BTC', localbitcoins_btc / 1000);
 	setGlobal('LOCALBITCOINS_VOL', localbitcoins_vol * 1000);
 	setGlobal('MTGOX_BTC', mtgox_btc / 1000);
-	setGlobal('MTGOX_VOL', mtgox_vo * 1000);	
+	setGlobal('MTGOX_VOL', mtgox_vol * 1000);	
 }
 
 else {
