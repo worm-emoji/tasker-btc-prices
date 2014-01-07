@@ -1,4 +1,4 @@
-//Coinbase.js, parses Coinbase API data from tasker.
+//Coinbase.js, parses Coinbase API data for use with tasker.
 //We're parsing the saved data from coinbase (https://coinbase.com/api/v1/prices/spot_rate) that should be in the %HTTPD variable. Simple usage, just use %CURRENTBTC as a variable in tasker.
 btc = JSON.parse(global('HTTPD'));
 setGlobal('CURRENTBTC', btc.amount);
